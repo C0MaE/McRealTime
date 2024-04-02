@@ -1,0 +1,15 @@
+name: McRealTime
+version: '${version}'
+main: com.comae.mcrealtime.McRealTim
+api-version: '1.20'
+
+commands:
+  getTime:
+    description: "GetTime Command (only for Development)"
+    usage: "/getTime"
+  getTimeZones:
+    description: "GetTimeZones (only for Development)"
+    usage: "/getTimeZones"
+  setWorldZone:
+    description: "Set TimeZone for your world"
+    usage: "/setWorldZone <ZoneId>"
